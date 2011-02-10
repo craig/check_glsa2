@@ -1,7 +1,7 @@
 #!/bin/bash
 # Nagios check script for GLSAs (Gentoo Linux Security Advisories)
 # Created by Stefan Behte <craig@gentoo.org>
-# Impired by wschlich's version
+# Inspired by wschlich's version
 # Distributed under the terms of the GNU General Public License v2
 #
 # Needs glsa-check from gentoolkit
