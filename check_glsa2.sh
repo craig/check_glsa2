@@ -33,7 +33,7 @@ do
 	then
 		continue
 	fi
-	
+
 	NEW_PACKAGES=($(glsa-check -d ${GLSALIST[$i]} | awk -F: '/Affected package: / {print $2}' | tr '\n' ' '))
 	if [[ ${?} -ne 0 ]]
 	then
@@ -50,4 +50,3 @@ done
 
 echo "CRITICAL - affecting GLSAs:${GLSA_PACKAGES}"
 exit 2
-
