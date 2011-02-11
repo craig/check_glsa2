@@ -49,6 +49,5 @@ do
 done
 
 echo "CRITICAL - affecting GLSAs:${GLSA_PACKAGES}"
-
-
+exit 2
 
